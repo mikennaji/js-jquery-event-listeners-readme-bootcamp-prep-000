@@ -12,7 +12,7 @@ function frameIt(){
 }
 
 function submitIt(){
-  $('#typing').on('keydown', function(key) {
+  $('#typing').on('keydown', function() {
   if(key.which == 71){
       window.alert('Your form is going to be submitted now.');
   }
