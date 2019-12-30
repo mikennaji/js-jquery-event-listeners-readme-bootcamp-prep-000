@@ -1,6 +1,6 @@
 function getIt(){
   $('p').on('click',function (){
-
+    window.alert("Hey!")
   })
 }
 
@@ -12,8 +12,8 @@ function frameIt(){
 }
 
 function submitIt(){
-  $('#typing').on('keydown', function() {
-    window.alert('Your form is going to be submitted now.');
+  $('#typing').on('keydown', function(key) {
+    window.alert()
   if(key.which == 71){
       window.alert('Your form is going to be submitted now.');
   }
