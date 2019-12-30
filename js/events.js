@@ -11,7 +11,7 @@ function frameIt(){
 })
 }
 
-function submitIt(){
+function pressIt(){
   $('#typing').on('keydown', function(key) {
     window.alert()
   if(key.which == 71){
